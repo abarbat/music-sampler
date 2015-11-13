@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Arctic Monkeys Music Sampler</title>
+  <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <h1>Intro to Arctic Monkeys</h1>
+  <div id="left">
+    <img id="bandphoto" src="images/bandphoto.jpg" alt="Photo of Arctic Monkeys">
+
+    <p>Image source: <a href="http://www.arcticmonkeys.com/photos.php?id=296">Arctic Monkeys</a></p>
+  </div>
+  <div id="right">
+    <p><a href="http://www.arcticmonkeys.com/">Arctic Monkeys</a> is a British indie rock band. Their nostalgic sound would appeal to fans of Kaiser Chiefs, Cage the Elephant or The Fratellis, but their lyrics, intricate and fast, are their biggest attraction. Their songs often focus on relationships and somewhat sleazy night club scenes. Earlier albums tended to be upbeat with contrastingly dark themes. In AM, their fifth and most popular album, influences from hip hop bled into their music, creating a new but still distinctly Monkeys-esque feel.</p>
+    <p>Click an album cover to sample a song from that album!</p>
+
+<div class="clearfix"></div>
+
+    <div id="pad">
+    <img class="albumimg" id="favouriteworstnightmare" src="images/favouriteworstnightmare.jpg" alt="Album cover: Favourite Worst Nightmare">
+    <img class="albumimg" id="humbug" src="images/humbug.jpg" alt="Album cover: Humbug">
+    <img class="albumimg" id="suckitandsee" src="images/suckitandsee.jpg" alt="Album cover: Suck It and See">
+    <img class="albumimg" id="am" src="images/am.jpg" alt="Album cover: AM">
+    </div>
+
+    <div id="toggle">
+      <div class="player" id="teddypicker">
+        <audio class="music" controls preload="auto">
+          <source src="audio/teddypicker.mp3" type="audio/mp3">
+          <source src="audio/teddypicker.ogg" type="audio/ogg">
+        </audio>
+        <p>Teddy Picker - <span class="albumtitle">Favourite Worst Nightmare</span></p>
+      </div>
+      <div class="player" id="cryinglightning">
+        <audio class="music" controls preload="auto">
+          <source src="audio/cryinglightning.mp3" type="audio/mp3">
+          <source src="audio/cryinglightning.ogg" type="audio/ogg">
+          </audio>
+        <p>Crying Lightning - <span class="albumtitle">Humbug</span></p>
+      </div>
+      <div class="player" id="blacktreacle">
+        <audio class="music" controls preload="auto">
+        	<source src="audio/blacktreacle.ogg" type="audio/mp3">
+        	<source src="audio/blacktreacle.ogg" type="audio/ogg">
+        </audio>
+        <p>Black Treacle - <span class="albumtitle">Suck It and See</span></p>
+      </div>
+      <div class="player" id="doiwannaknow">
+        <audio class="music" controls preload="auto">
+          <source src="audio/doiwannaknow.mp3" type="audio/mp3">
+          <source src="audio/doiwannaknow.ogg" type="audio/ogg">
+        </audio>
+        <p>Do I wanna Know - <span class="albumtitle">AM</span></p>
+      </div>
+    </div>
+  </div>
+
+
+<div class="clearfix"></div>
+
+
+
+<footer>
+  <p>This page was created by Adriana Barbat to review and sample music.</p>
+</footer>
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/actions.js"></script>
+
+</body>
+</html>
